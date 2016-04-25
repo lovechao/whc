@@ -26,6 +26,7 @@ public class TestJunit {
 	public void test1(){
 		List<Person> person=personService.select();
 		System.out.println(person.size()+","+person.get(0).getName());
+		System.out.println("测试");
 	}
 	
 	@Test
