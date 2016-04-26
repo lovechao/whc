@@ -39,6 +39,6 @@ public class TestJunit {
 	public void test3(){
 		List<Person> person=testServiceImpl.select();
 		System.out.println(person.size()+","+person.get(0).getName());
-		System.out.println("测试主干同步分支");
+		System.out.println("测试主干同步分支11111");
 	}
 }
