@@ -33,7 +33,7 @@ public class TestJunit {
 	public void test2(){
 		List<Person> person=testServiceImpl.select();
 		System.out.println(person.size()+","+person.get(0).getName());
-		System.out.println("测试支干合主干999999");
+		System.out.println("测试支干合主干000000");
 	}
 	@Test
 	public void test3(){
