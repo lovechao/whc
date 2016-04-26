@@ -12,10 +12,13 @@ import com.dao.PersonDao;
 public class TestServiceImpl {
 	
 	@Autowired
+	private PersonService personService;
+	
+	@Autowired
 	private PersonDao personDao;
 
 	public List<Person> select() {
-		List<Person> list=personDao.select();
+		List<Person> list=personService.select();
 		return list;
 	}
 	
