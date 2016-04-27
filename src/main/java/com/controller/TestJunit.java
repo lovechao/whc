@@ -26,14 +26,14 @@ public class TestJunit {
 	public void test1(){
 		List<Person> person=personService.select();
 		System.out.println(person.size()+","+person.get(0).getName());
-		System.out.println("111111111111");
+		System.out.println("22222222222");
 	}
 	
 	@Test
 	public void test2(){
 		List<Person> person=testServiceImpl.select();
 		System.out.println(person.size()+","+person.get(0).getName());
-		System.out.println("测试支干合主干11111");
+		System.out.println("测试支干合主干33333333333");
 	}
 	@Test
 	public void test3(){
