@@ -26,7 +26,7 @@ public class TestJunit {
 	public void test1(){
 		List<Person> person=personService.select();
 		System.out.println(person.size()+","+person.get(0).getName());
-		System.out.println("测试冲突跨版本冲突ffffff");
+		System.out.println("测试冲突跨版本冲突hhhhhhhhh");
 	}
 	
 	@Test
