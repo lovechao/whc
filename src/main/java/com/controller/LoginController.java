@@ -18,7 +18,7 @@ public class LoginController {
 	
 	
 	@RequestMapping(value="/login",produces = {"application/json;charset=UTF-8"},method=RequestMethod.GET)
-	 @ResponseBody
+	@ResponseBody
 	public JsonResult login(@RequestParam("userName") String userName,
 			                                  @RequestParam("pwd") String pwd,HttpServletRequest request){
 		JsonResult jsonResult =new JsonResult<>();
@@ -33,4 +33,10 @@ public class LoginController {
 	public ModelAndView  toLogin(){
 		return new ModelAndView("/login.html");
 	}
+	
+	@RequestMapping(value="/test")
+    public JsonResult  test(){
+	    JsonResult jsonResult =new JsonResult<>();
+	    return jsonResult;
+    }
 }
