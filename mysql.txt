@@ -1,0 +1,12 @@
+CREATE DATABASE db_name DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+
+CREATE TABLE person (
+number INT(11),
+name VARCHAR(255),
+birthday DATE
+);
+
+insert into person values(1,'zhangsan',new date);
+
+alter table person add primary key ('number');Ö÷¼üË÷Òý
